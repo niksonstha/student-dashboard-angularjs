@@ -1,4 +1,9 @@
-var myApp = angular.module("myApp", ["ui.router", "navbar", "dashboard"]);
+var myApp = angular.module("myApp", [
+  "ui.router",
+  "ui.grid",
+  "navbar",
+  "dashboard",
+]);
 myApp.config(function ($stateProvider) {
   var dashboard = {
     name: "dashboard",

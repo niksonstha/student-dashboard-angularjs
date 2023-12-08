@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "name": "Alice",
+        "age": 20,
+        "grade": "A",
+        "major": "Computer Science",
+        "gender": "Female"
+    },
+    {
+        "id": 2,
+        "name": "Bob",
+        "age": 22,
+        "grade": "B+",
+        "major": "Engineering",
+        "gender": "Male"
+    },
+    {
+        "id": 3,
+        "name": "Charlie",
+        "age": 21,
+        "grade": "A-",
+        "major": "Mathematics",
+        "gender": "Male"
+    },
+    {
+        "id": 4,
+        "name": "Diana",
+        "age": 19,
+        "grade": "A+",
+        "major": "Biology",
+        "gender": "Female"
+    },
+    {
+        "id": 5,
+        "name": "Eric",
+        "age": 20,
+        "grade": "B",
+        "major": "Physics",
+        "gender": "Male"
+    },
+    {
+        "id": 6,
+        "name": "Fiona",
+        "age": 23,
+        "grade": "B-",
+        "major": "Economics",
+        "gender": "Female"
+    },
+    {
+        "id": 7,
+        "name": "George",
+        "age": 22,
+        "grade": "A",
+        "major": "Chemistry",
+        "gender": "Male"
+    },
+    {
+        "id": 8,
+        "name": "Hannah",
+        "age": 21,
+        "grade": "A-",
+        "major": "Sociology",
+        "gender": "Female"
+    },
+    {
+        "id": 9,
+        "name": "Ian",
+        "age": 20,
+        "grade": "B+",
+        "major": "History",
+        "gender": "Male"
+    },
+    {
+        "id": 10,
+        "name": "Julia",
+        "age": 19,
+        "grade": "A",
+        "major": "English Literature",
+        "gender": "Female"
+    }
+]
