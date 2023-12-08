@@ -1,0 +1,16 @@
+{
+  "name": "angular-student-board",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -o"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@uirouter/angularjs": "^1.1.0",
+    "angular": "^1.8.2"
+  }
+}

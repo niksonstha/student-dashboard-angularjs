@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!--? Include AngularJS and UI-Router scripts from CDNs -->
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/@uirouter/angularjs/release/angular-ui-router.min.js"></script>
+
+    <!--? Include css files  -->
+    <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="screens/dashboard/dashboard.css" />
+    <link rel="stylesheet" href="components/studentlist/studentlist.css" />
+    <link rel="stylesheet" href="components/navbar/navbar.css" />
+    <link rel="stylesheet" href="screens/studentDetails/studentDetails.css" />
+
+    <!--? Include  JavaScript module files -->
+
+    <script
+      type="text/javascript"
+      src="screens/dashboard/dashboard.module.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="components/navbar/navbar.module.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="screens/studentDetails/studentDetails.module.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="components/studentlist/studentlist.module.js"
+    ></script>
+
+    <!--? Include font awesome  -->
+    <script
+      src="https://kit.fontawesome.com/f93fb3145a.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--? include component files  -->
+    <script
+      type="module"
+      src="screens/dashboard/dashboard.component.js"
+    ></script>
+    <script
+      type="module"
+      src="components/studentlist/studentlist.component.js"
+    ></script>
+    <script type="module" src="components/navbar/navbar.component.js"></script>
+    <script
+      type="module"
+      src="screens/studentDetails/studentDetails.component.js"
+    ></script>
+    <script type="text/javascript" src="app.module.js"></script>
+  </head>
+  <body>
+    <div class="container" ng-controller="MainController">
+      <div class="navbar">
+        <navbar></navbar>
+      </div>
+
+      <div class="dashboard">
+        <ui-view></ui-view>
+      </div>
+    </div>
+  </body>
+</html>
