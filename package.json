@@ -12,6 +12,7 @@
   "dependencies": {
     "@uirouter/angularjs": "^1.1.0",
     "angular": "^1.8.2",
-    "angular-ui-grid": "^4.12.4"
+    "angular-ui-grid": "^4.12.4",
+    "chart.js": "^4.4.1"
   }
 }

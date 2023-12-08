@@ -1,82 +1,72 @@
 [
     {
-        "id": 1,
-        "name": "Alice",
-        "age": 20,
-        "grade": "A",
-        "major": "Computer Science",
-        "gender": "Female"
+        "name": "John Doe",
+        "age": 18,
+        "grade": 12,
+        "major": "Science",
+        "gender": 1
     },
     {
-        "id": 2,
-        "name": "Bob",
-        "age": 22,
-        "grade": "B+",
-        "major": "Engineering",
-        "gender": "Male"
+        "name": "Jane Smith",
+        "age": 17,
+        "grade": 11,
+        "major": "English",
+        "gender": 2
     },
     {
-        "id": 3,
-        "name": "Charlie",
-        "age": 21,
-        "grade": "A-",
-        "major": "Mathematics",
-        "gender": "Male"
+        "name": "Robert Johnson",
+        "age": 18,
+        "grade": 12,
+        "major": "Science",
+        "gender": 1
     },
     {
-        "id": 4,
-        "name": "Diana",
-        "age": 19,
-        "grade": "A+",
-        "major": "Biology",
-        "gender": "Female"
-    },
-    {
-        "id": 5,
-        "name": "Eric",
-        "age": 20,
-        "grade": "B",
+        "name": "Emily Davis",
+        "age": 17,
+        "grade": 11,
         "major": "Physics",
-        "gender": "Male"
+        "gender": 2
     },
     {
-        "id": 6,
-        "name": "Fiona",
-        "age": 23,
-        "grade": "B-",
-        "major": "Economics",
-        "gender": "Female"
+        "name": "Michael Brown",
+        "age": 16,
+        "grade": 10,
+        "major": "Physics",
+        "gender": 1
     },
     {
-        "id": 7,
-        "name": "George",
-        "age": 22,
-        "grade": "A",
-        "major": "Chemistry",
-        "gender": "Male"
+        "name": "Samantha Miller",
+        "age": 17,
+        "grade": 11,
+        "major": "English",
+        "gender": 2
     },
     {
-        "id": 8,
-        "name": "Hannah",
-        "age": 21,
-        "grade": "A-",
-        "major": "Sociology",
-        "gender": "Female"
+        "name": "Daniel White",
+        "age": 16,
+        "grade": 10,
+        "major": "Physics",
+        "gender": 1
     },
     {
-        "id": 9,
-        "name": "Ian",
-        "age": 20,
-        "grade": "B+",
-        "major": "History",
-        "gender": "Male"
+        "name": "Olivia Taylor",
+        "age": 18,
+        "grade": 12,
+        "major": "Physics",
+        "gender": 2
     },
     {
-        "id": 10,
-        "name": "Julia",
-        "age": 19,
-        "grade": "A",
-        "major": "English Literature",
-        "gender": "Female"
+        "name": "William Anderson",
+        "age": 16,
+        "grade": 10,
+        "major": "Computer Science",
+        "gender": 1
+    },
+    {
+        "name": "Avan Thomas",
+        "age": 17,
+        "grade": 11,
+        "major": "Computer Science",
+        "gender": 1
     }
 ]

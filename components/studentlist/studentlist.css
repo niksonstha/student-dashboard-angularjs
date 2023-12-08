@@ -7,9 +7,9 @@ h1 {
   letter-spacing: 4px;
 }
 
-.student__list__table .grid {
+.grid {
   color: black;
-  width: 90%;
+  width: 70vw;
   height: max-content;
   padding: 20px;
   background-color: #f0ece5;
@@ -17,4 +17,9 @@ h1 {
 }
 .header-filtered {
   color: blue;
+}
+.chart {
+  background-color: #f0ece5;
+  width: 40vw;
+  height: max-content;
 }

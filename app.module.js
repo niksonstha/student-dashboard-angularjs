@@ -9,7 +9,7 @@ var myApp = angular.module("myApp", [
 myApp.config(function ($stateProvider) {
   var dashboard = {
     name: "dashboard",
-    url: "/dashboard",
+    url: "/",
     component: "dashboard",
   };
   var studentDetails = {

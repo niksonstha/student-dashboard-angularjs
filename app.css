@@ -19,7 +19,9 @@
 }
 
 .dashboard {
-  width: 80%;
+  width: 100%;
+  overflow-y: scroll;
+  height: 100vh;
 }
 
 .smallerNavbar {
