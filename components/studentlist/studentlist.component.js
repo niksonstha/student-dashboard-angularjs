@@ -1,6 +1,6 @@
 studentlist.component("studentlist", {
   templateUrl: "components/studentlist/studentlist.template.html",
-  controller: function ($scope, uiGridConstants) {
+  controller: function ($scope, $http) {
     $scope.highlightFilteredHeader = function (
       row,
       rowRenderIndex,
@@ -16,11 +16,11 @@ studentlist.component("studentlist", {
 
     $scope.gridOptions = {
       enableFiltering: true,
+      enableGridMenu: true,
       columnDefs: [
         {
           field: "id",
           headerCellClass: $scope.highlightFilteredHeader,
-          enableFiltering: false,
         },
         {
           field: "name",
@@ -29,13 +29,14 @@ studentlist.component("studentlist", {
         { field: "age", headerCellClass: $scope.highlightFilteredHeader },
         { field: "grade", headerCellClass: $scope.highlightFilteredHeader },
         { field: "major", headerCellClass: $scope.highlightFilteredHeader },
+        { field: "gender", headerCellClass: $scope.highlightFilteredHeader },
       ],
       data: [], // Initialize an empty array for data
     };
 
     $scope.getData = function () {
       // Use AngularJS $http to make a GET request
-      axios
+      $http
         .get("../../db/student_list.json") // Adjust the path accordingly
         .then(function (response) {
           $scope.gridOptions.data = response.data;

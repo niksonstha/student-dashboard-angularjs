@@ -1,19 +1,21 @@
 var myApp = angular.module("myApp", [
   "ui.router",
   "ui.grid",
+  "ui.grid.importer",
   "navbar",
   "dashboard",
+  "studentDetails",
 ]);
 myApp.config(function ($stateProvider) {
   var dashboard = {
     name: "dashboard",
     url: "/dashboard",
-    templateUrl: "screens/dashboard/dashboard.template.html",
+    component: "dashboard",
   };
   var studentDetails = {
     name: "studentDetails",
     url: "/studentDetails",
-    templateUrl: "screens/studentDetails/studentDetails.template.html",
+    component: "studentDetails",
   };
 
   $stateProvider.state(dashboard);

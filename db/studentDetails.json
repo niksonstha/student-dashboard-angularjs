@@ -1,0 +1,102 @@
+[
+    {
+        "name": "John Doe",
+        "age": 18,
+        "grade": 12,
+        "major": "Science",
+        "address": "123 Main St, Cityville, State",
+        "email": "john.doe@example.com",
+        "phone": "+1 123-456-7890",
+        "image_url": "https://example.com/john_doe_image.jpg"
+    },
+    {
+        "name": "Jane Smith",
+        "age": 17,
+        "grade": 11,
+        "major": "Mathematics",
+        "address": "456 Elm St, Townsville, State",
+        "email": "jane.smith@example.com",
+        "phone": "+1 234-567-8901",
+        "image_url": "https://example.com/jane_smith_image.jpg"
+    },
+    {
+        "name": "Robert Johnson",
+        "age": 18,
+        "grade": 12,
+        "major": "History",
+        "address": "789 Oak St, Villageton, State",
+        "email": "robert.johnson@example.com",
+        "phone": "+1 345-678-9012",
+        "image_url": "https://example.com/robert_johnson_image.jpg"
+    },
+    {
+        "name": "Emily Davis",
+        "age": 17,
+        "grade": 11,
+        "major": "English",
+        "address": "101 Pine St, Hamletown, State",
+        "email": "emily.davis@example.com",
+        "phone": "+1 456-789-0123",
+        "image_url": "https://example.com/emily_davis_image.jpg"
+    },
+    {
+        "name": "Michael Brown",
+        "age": 16,
+        "grade": 10,
+        "major": "Computer Science",
+        "address": "210 Cedar St, Boroughville, State",
+        "email": "michael.brown@example.com",
+        "phone": "+1 567-890-1234",
+        "image_url": "https://example.com/michael_brown_image.jpg"
+    },
+    {
+        "name": "Samantha Miller",
+        "age": 17,
+        "grade": 11,
+        "major": "Art",
+        "address": "777 Maple St, Artville, State",
+        "email": "samantha.miller@example.com",
+        "phone": "+1 678-901-2345",
+        "image_url": "https://example.com/samantha_miller_image.jpg"
+    },
+    {
+        "name": "Daniel White",
+        "age": 16,
+        "grade": 10,
+        "major": "Physics",
+        "address": "888 Birch St, Physictown, State",
+        "email": "daniel.white@example.com",
+        "phone": "+1 789-012-3456",
+        "image_url": "https://example.com/daniel_white_image.jpg"
+    },
+    {
+        "name": "Olivia Taylor",
+        "age": 18,
+        "grade": 12,
+        "major": "Chemistry",
+        "address": "345 Walnut St, Chemville, State",
+        "email": "olivia.taylor@example.com",
+        "phone": "+1 890-123-4567",
+        "image_url": "https://example.com/olivia_taylor_image.jpg"
+    },
+    {
+        "name": "William Anderson",
+        "age": 16,
+        "grade": 10,
+        "major": "Biology",
+        "address": "555 Sycamore St, Biocity, State",
+        "email": "william.anderson@example.com",
+        "phone": "+1 901-234-5678",
+        "image_url": "https://example.com/william_anderson_image.jpg"
+    },
+    {
+        "name": "Ava Thomas",
+        "age": 17,
+        "grade": 11,
+        "major": "Economics",
+        "address": "999 Willow St, Econville, State",
+        "email": "ava.thomas@example.com",
+        "phone": "+1 012-345-6789",
+        "image_url": "https://example.com/ava_thomas_image.jpg"
+    }
+]
