@@ -14,8 +14,6 @@ h1 {
   display: grid; /* Using grid layout for better structure */
   grid-template-columns: repeat(3, 1fr); /* Create four equal columns */
   gap: 20px; /* Gap between grid items */
-  max-height: 70vh;
-  overflow-y: scroll;
   padding: 20px;
 }
 
