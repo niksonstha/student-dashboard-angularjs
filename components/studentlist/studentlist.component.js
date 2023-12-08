@@ -13,10 +13,14 @@ studentlist.filter("mapGender", mapGender).component("studentlist", {
         return "";
       }
     };
-
+    $scope.data = [];
     $scope.gridOptions = {
       enableFiltering: true,
       enableGridMenu: true,
+      data: "data",
+      importerDataAddCallback: function (grid, newObjects) {
+        $scope.data = $scope.data.concat(newObjects);
+      },
       columnDefs: [
         {
           field: "name",
@@ -39,7 +43,7 @@ studentlist.filter("mapGender", mapGender).component("studentlist", {
           headerCellClass: self.highlightFilteredHeader,
         },
       ],
-      data: [], // Initialize an empty array for data
+      // data: [], // Initialize an empty array for data
     };
 
     $scope.getData = function () {
@@ -47,7 +51,11 @@ studentlist.filter("mapGender", mapGender).component("studentlist", {
       $http
         .get("../../db/student_list.json") // Adjust the path accordingly
         .then(function (response) {
-          $scope.gridOptions.data = response.data;
+          if (!$scope.data) {
+            $scope.gridOptions.data = response.data;
+          } else {
+            $scope.data = response.data;
+          }
 
           var genderCounts = {
             male: 0,
