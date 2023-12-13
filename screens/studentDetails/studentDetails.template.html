@@ -1,16 +1,13 @@
 <div class="studentDetails">
   <h1>Student Details</h1>
   <div class="studentDetail">
-    <div class="card" ng-repeat="detail in details">
+    <div class="card" ng-repeat="detail in details track by $index">
       <img src="https://www.keg.com/hubfs/johannes-1.png" alt="" />
       <div class="detail">
         <p><strong>Name: </strong>{{detail.name}}</p>
         <p><strong>Age: </strong>{{detail.age}}</p>
         <p><strong>Grade: </strong>{{detail.grade}}</p>
         <p><strong>Major: </strong>{{detail.major}}</p>
-        <p><strong>Address: </strong>{{detail.address}}</p>
-        <p><strong>Email: </strong>{{detail.email}}</p>
-        <p><strong>Phone: </strong>{{detail.phone}}</p>
       </div>
     </div>
   </div>

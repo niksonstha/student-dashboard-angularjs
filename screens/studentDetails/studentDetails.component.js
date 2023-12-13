@@ -1,14 +1,15 @@
 studentDetails.component("studentDetails", {
   templateUrl: "screens/studentDetails/studentDetails.template.html",
-  controller: function ($scope, $http) {
-    $http
-      .get("../../db/studentDetails.json")
-      .then(function (response) {
-        $scope.details = response.data;
-        console.log($scope.details);
-      })
-      .catch(function (error) {
-        console.error("Error fetching data:", error);
-      });
+  controller: function ($scope) {
+    // Retrieve data from local storage
+    var storedDetails = localStorage.getItem("studentData");
+
+    if (storedDetails) {
+      $scope.details = JSON.parse(storedDetails);
+      console.log($scope.details);
+    } else {
+      $scope.details = []; // Initialize as an empty array if no data is found
+      console.log("No stored data found.");
+    }
   },
 });
