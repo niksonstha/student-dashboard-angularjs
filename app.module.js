@@ -6,10 +6,10 @@ var myApp = angular.module("myApp", [
   "dashboard",
   "studentDetails",
 ]);
-myApp.config(function ($stateProvider) {
+myApp.config(function ($stateProvider, $urlRouterProvider) {
   var dashboard = {
     name: "dashboard",
-    url: "/",
+    url: "/dashboard",
     component: "dashboard",
   };
   var studentDetails = {
@@ -20,6 +20,7 @@ myApp.config(function ($stateProvider) {
 
   $stateProvider.state(dashboard);
   $stateProvider.state(studentDetails);
+  $urlRouterProvider.otherwise("/dashboard");
 });
 
 myApp.controller("MainController", function ($scope) {

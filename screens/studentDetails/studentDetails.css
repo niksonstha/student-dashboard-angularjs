@@ -1,18 +1,21 @@
 .studentDetails {
-  margin-left: 20px;
-  margin-top: 20px;
-  width: 90%;
+  width: 100%;
+  overflow-x: hidden;
 }
-h1 {
+.studentDetails h1 {
   color: aliceblue;
   letter-spacing: 4px;
-  margin-top: 50px;
+  position: sticky;
+  color: black;
+  top: 0;
+  background-color: #fff;
+  width: 100%;
+  padding: 10px;
 }
 
 .studentDetail {
-  margin-top: 50px;
   display: grid; /* Using grid layout for better structure */
-  grid-template-columns: repeat(3, 1fr); /* Create four equal columns */
+  grid-template-columns: repeat(5, 1fr); /* Create four equal columns */
   gap: 20px; /* Gap between grid items */
   padding: 20px;
 }
@@ -26,4 +29,14 @@ h1 {
   padding: 20px;
   border-radius: 10px;
   cursor: pointer;
+}
+
+@media screen and (max-width: 2000px) {
+  .studentDetail {
+    margin-top: 50px;
+    display: grid; /* Using grid layout for better structure */
+    grid-template-columns: repeat(3, 1fr); /* Create four equal columns */
+    gap: 20px; /* Gap between grid items */
+    padding: 20px;
+  }
 }
