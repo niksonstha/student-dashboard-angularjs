@@ -76,7 +76,7 @@ studentlist.filter("mapGender", mapGender).component("studentlist", {
       // data: [], // Initialize an empty array for data
     };
 
-    function renderChart(params) {
+    function renderChart() {
       var genderCounts = {
         male: 0,
         female: 0,

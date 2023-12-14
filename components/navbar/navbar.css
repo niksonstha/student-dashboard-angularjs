@@ -15,19 +15,6 @@
   transition: width 0.3s ease-in-out;
 }
 
-/* .nav__list > ul > li {
-  display: inline-block;
-  font-weight: bold;
-  letter-spacing: 3px;
-  width: 100%;
-  cursor: pointer;
-  margin-bottom: 20px;
-  background-color: aliceblue;
-  padding: 20px;
-  border-radius: 20px;
-  display: flex;
-  justify-content: center;
-} */
 .nav__list > ul > li {
   list-style: none;
 }
@@ -96,3 +83,4 @@
     color: black;
   }
 }
+

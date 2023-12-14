@@ -57,3 +57,13 @@
     padding: 20px;
   }
 }
+
+/* Media query for mobile screens */
+@media screen and (max-width: 767px) {
+  .studentDetail {
+    display: grid; /* Using grid layout for better structure */
+    grid-template-columns: repeat(1, 1fr); /* Create four equal columns */
+    gap: 20px; /* Gap between grid items */
+    padding: 20px;
+  }
+}

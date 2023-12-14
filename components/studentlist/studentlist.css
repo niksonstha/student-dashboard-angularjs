@@ -104,3 +104,27 @@ input[type="number"],
 .submit-btn:hover {
   background-color: #45a049;
 }
+
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 1rem;
+  }
+
+  .chart {
+    width: 70vw;
+    height: 20vh;
+  }
+
+  .grid {
+    width: 60vw;
+    font-size: 0.6rem;
+  }
+
+  button {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 0.7rem;
+  }
+}
