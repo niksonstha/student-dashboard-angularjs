@@ -5,11 +5,11 @@
     ng-click="toggleNavbar()"
   ></i>
   <i
-    ng-if="isSmallerNavbar"
+    ng-if="isSmallerNavbar && showBarsIcon"
     class="fa-solid fa-bars"
     ng-click="toggleNavbar()"
   ></i>
-  <ul>
+  <ul class="navContent">
     <li>
       <a ui-sref="dashboard">
         <span ng-if="!isSmallerNavbar">Dashboard</span>
