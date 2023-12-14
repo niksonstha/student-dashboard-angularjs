@@ -24,10 +24,8 @@ studentlist.filter("mapGender", mapGender).component("studentlist", {
 
       // Close the modal
       $scope.showAddStudentModal = false;
-
-      // Clear the form fields after submission if necessary
-      $scope.newStudent = {}; // Assuming newStudent is an object holding form fields
-      renderChart();
+      // Refresh the window
+      window.location.reload();
     };
 
     $scope.closeModal = function () {
@@ -65,6 +63,13 @@ studentlist.filter("mapGender", mapGender).component("studentlist", {
         {
           field: "gender",
           cellFilter: "mapGender",
+          filter: {
+            type: uiGridConstants.filter.SELECT,
+            selectOptions: [
+              { value: "1", label: "male" },
+              { value: "2", label: "female" },
+            ],
+          },
           headerCellClass: self.highlightFilteredHeader,
         },
       ],

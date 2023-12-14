@@ -5,6 +5,8 @@
 
 h1 {
   letter-spacing: 4px;
+  margin-top: 20px;
+  font-size: 3rem;
 }
 
 .grid {
@@ -20,7 +22,7 @@ h1 {
 }
 .chart {
   background-color: #f0ece5;
-  width: 40vw;
+  width: 30vw;
 }
 
 button {
